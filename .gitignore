@@ -1,4 +1,9 @@
 .gradle/
 build/
 **/DS_Store
+.idea/
+.gradle/
+.idea/
+.gradle/
+SixDeltaWorkshop.iml
 
