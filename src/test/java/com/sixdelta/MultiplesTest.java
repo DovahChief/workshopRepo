@@ -16,4 +16,16 @@ public class MultiplesTest {
         assertEquals(23 , result);
 
     }
+
+    @Test(expected = RuntimeException.class)
+    public void exceptionTest(){
+        Multiplos m = new Multiplos();
+        m.calculateFor(0);
+    }
+
+    @Test(expected = RuntimeException.class)
+    public void exceptionTestNeg(){
+        Multiplos m = new Multiplos();
+        m.calculateFor(-8);
+    }
 }
